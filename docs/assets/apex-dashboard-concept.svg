@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="860" viewBox="0 0 1500 860">
+<rect width="1500" height="860" fill="#f5f7fa"/>
+<rect width="1500" height="82" fill="#ffffff"/>
+<text x="40" y="52" font-family="Arial,sans-serif" font-size="38" font-weight="700" fill="#20242a">Oracle Lineage Explorer</text>
+<text x="1180" y="50" font-family="Arial,sans-serif" font-size="22" fill="#62676e">APEX UI CONCEPT</text>
+<g font-family="Arial,sans-serif">
+<g><rect x="45" y="120" width="320" height="140" rx="16" fill="#fff" stroke="#dadee4"/><text x="70" y="160" font-size="20" fill="#6a7078">Objects</text><text x="70" y="215" font-size="34" font-weight="700" fill="#252a31">24</text></g>
+<g><rect x="395" y="120" width="320" height="140" rx="16" fill="#fff" stroke="#dadee4"/><text x="420" y="160" font-size="20" fill="#6a7078">Dependencies</text><text x="420" y="215" font-size="34" font-weight="700" fill="#252a31">41</text></g>
+<g><rect x="745" y="120" width="320" height="140" rx="16" fill="#fff" stroke="#dadee4"/><text x="770" y="160" font-size="20" fill="#6a7078">Max depth</text><text x="770" y="215" font-size="34" font-weight="700" fill="#252a31">6</text></g>
+<g><rect x="1095" y="120" width="320" height="140" rx="16" fill="#fff" stroke="#dadee4"/><text x="1120" y="160" font-size="20" fill="#6a7078">Cycles</text><text x="1120" y="215" font-size="34" font-weight="700" fill="#252a31">0</text></g>
+<rect x="45" y="305" width="1370" height="500" rx="16" fill="#fff" stroke="#dadee4"/>
+<text x="75" y="355" font-size="30" font-weight="700" fill="#252a31">Recent dependency activity</text>
+<text x="90" y="425" font-size="22" fill="#373c43">LN_CUSTOMER → VW_LN_CUSTOMER_ACTIVE</text>
+<line x1="75" y1="455" x2="1385" y2="455" stroke="#e6e8ec"/>
+<text x="90" y="505" font-size="22" fill="#373c43">VW_LN_CUSTOMER_ACTIVE → PKG_LN_REPORTING</text>
+<line x1="75" y1="535" x2="1385" y2="535" stroke="#e6e8ec"/>
+<text x="90" y="585" font-size="22" fill="#373c43">STATUS_CODE found in LN_CUSTOMER</text>
+<line x1="75" y1="615" x2="1385" y2="615" stroke="#e6e8ec"/>
+<text x="90" y="665" font-size="22" fill="#373c43">Object-level lineage — semantic lineage requires deeper parsing</text>
+</g></svg>
